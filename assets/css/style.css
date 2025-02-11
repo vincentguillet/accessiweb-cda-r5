@@ -1,0 +1,115 @@
+form {
+    max-width: 400px;
+    background-color: #404040;
+    border-radius: 20px;
+    margin: auto;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+label {
+    display: inline-block;
+    min-width: 100px;
+    font-weight: bold;
+    max-width: 400px;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #061f5a;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px;
+    width: 400px;
+    color: white;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-style: groove;
+    transform: scale(1.07);
+    transition: transform 0.3s;
+}
+
+body {
+    background-color: white;
+}
+
+.strong {
+    color: #061f5a;
+}
+
+.plateforme {
+    display: block
+}
+
+.formulaire {
+    width: 400px;
+    height: 25px;
+    border-radius: 6px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+u {
+    color: #061f5a;
+}
+
+
+header,
+footer {
+    background-color: #061f5a;
+    padding: 15px 0;
+    text-align: center;
+    width: 450px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #404040;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
